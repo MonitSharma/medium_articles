@@ -10,7 +10,7 @@ This repository contains code, walkthroughs, and hands-on experiments from my **
 Each subfolder here corresponds to a topic I’ve written about or am actively researching. Every notebook is designed to be **educational, reproducible, and practically useful**.
 
 📄 Find the theory + storytelling on Medium:  
-[https://medium.com/@YourHandle](https://medium.com/@YourHandle)
+[https://medium.com/@_monitsharma](https://medium.com/@_monitsharma)
 
 ---
 
@@ -20,16 +20,17 @@ Each subfolder here corresponds to a topic I’ve written about or am actively r
 |------------------------|-------------------------------------------------------------------------------------------------------|
 | `quantum-benchmarking` | Code + notebooks from my arXiv paper & Medium series on quantum optimization and QUBO formulations   |
 | `transformers-rl`      | Demos and notes on LLMs, attention, Transformers, PPO, Q-learning, and applications of deep RL        |
+| `quantum-machine-learning` | Code and tutorials on QML implementations|
 
 ---
 
 ## ⚛️ Quantum Optimization Benchmarking
 
 This series accompanies my arXiv paper:  
-📄 **[Benchmarking Quantum Optimization Algorithms for Hard Combinatorial Problems](https://arxiv.org/abs/XXXX.XXXXX)**
+📄 **[A nComparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems](https://arxiv.org/abs/2503.12121)**
 
 And the Medium series:  
-📰 **[Quantum Optimization on Classically Hard Problems](https://medium.com/@YourHandle)**
+📰 **[Quantum Optimization on Classically Hard Problems](https://medium.com/@_MonitSharma)**
 
 **Problems covered:**
 - Multi-Dimensional Knapsack Problem (MDKP)
@@ -68,7 +69,7 @@ Clone this repo and install requirements (quantum section needs Qiskit, RL secti
 ```bash
 git clone https://github.com/MonitSharma/monit-learning-lab.git
 cd monit-learning-lab
-uv vennv --python=python3.10
+uv venv --python=python3.10
 uv pip install -r requirements.txt
 ```
 
@@ -96,7 +97,7 @@ Feel free to open an issue if you want to discuss ideas before implementing them
 ## 👤 Author
 
 Created and maintained by [Monit Sharma](https://github.com/MonitSharma)  
-📬 Email: monit@smu.edu.sg  
+
 🐦 Twitter: [@_MonitSharma](https://twitter.com/_MonitSharma)  
 ✍️ Medium: [@YourHandle](https://medium.com/@_monitsharma)
 
