@@ -1,0 +1,86 @@
+Paper Title,Authors,Year,Quantum Method(s),Benchmark Problem(s),URL/DOI,Notes
+Quantum Optimization Problems,Tomoyuki Yamakami,2002,,,http://arxiv.org/abs/quant-ph/0204010v1,"Krentel [J. Comput. System. Sci., 36, pp.490--509] presented a framework for
+an NP optimization problem that searches an optimal value among
+exponentially-many outcomes of polynomial-time computations. This paper expands
+his framework to a quantum optimization problem using polynomial-time quantum
+c..."
+"Quantum advantage for combinatorial optimization problems, Simplified",Mario Szegedy,2022,,,http://arxiv.org/abs/2212.12572v1,"We observe that fault-tolerant quantum computers have an optimal advantage
+over classical computers in approximating solutions to many NP optimization
+problems. This observation however gives nothing in practice...."
+Variational Quantum Optimization of Nonlocality in Noisy Quantum Networks,"Brian Doolittle, Tom Bromley, Nathan Killoran, Eric Chitambar",2022,,,http://arxiv.org/abs/2205.02891v1,"The inherent noise and complexity of quantum communication networks leads to
+challenges in designing quantum network protocols using classical methods. To
+address this issue, we develop a variational quantum optimization framework
+that simulates quantum networks on quantum hardware and optimizes the..."
+The Role of Entanglement in Quantum-Relaxation Based Optimization Algorithms,"Kosei Teramoto, Rudy Raymond, Hiroshi Imai",2023,,,http://arxiv.org/abs/2302.00429v2,"Quantum Random Access Optimizer (QRAO) is a quantum-relaxation based
+optimization algorithm proposed by Fuller et al. that utilizes Quantum Random
+Access Code (QRAC) to encode multiple variables of binary optimization in a
+single qubit. Differing from standard quantum optimizers such as QAOA, it
+uti..."
+(Sub)Exponential Quantum Speedup for Optimization,"Jiaqi Leng, Kewen Wu, Xiaodi Wu, Yufan Zheng",2025,,,http://arxiv.org/abs/2504.14841v1,"We demonstrate provable (sub)exponential quantum speedups in both discrete
+and continuous optimization, achieved through simple and natural quantum
+optimization algorithms, namely the quantum adiabatic algorithm for discrete
+optimization and quantum Hamiltonian descent for continuous optimization. O..."
+Monotonicity of optimized quantum $f$-divergence,Haojian Li,2021,,,http://arxiv.org/abs/2104.12890v3,"Optimized quantum $f$-divergence was first introduced by Wilde in
+\cite{Wil18}. Wilde raised the question of whether the monotonicity of
+optimized quantum $f$-divergence can be generalized to maps that are not
+quantum channels. We answer this question by generalizing the monotonicity of
+optimized qu..."
+Relaxed Peephole Optimization: A Novel Compiler Optimization for Quantum Circuits,"Ji Liu, Luciano Bello, Huiyang Zhou",2020,,,http://arxiv.org/abs/2012.07711v1,"In this paper, we propose a novel quantum compiler optimization, named
+relaxed peephole optimization (RPO) for quantum computers. RPO leverages the
+single-qubit state information that can be determined statically by the
+compiler. We define that a qubit is in a basis state when, at a given point in
+t..."
+Foundation of Quantum Optimal Transport and Applications,Kazuki Ikeda,2019,,,http://arxiv.org/abs/1906.09817v1,"Quantum optimal transportation seeks an operator which minimizes the total
+cost of transporting a quantum state to another state, under some constraints
+that should be satisfied during transportation. We formulate this issue by
+extending the Monge-Kantorovich problem, which is a classical optimal
+tr..."
+Efficient Use of Quantum Linear System Algorithms in Interior Point Methods for Linear Optimization,"Mohammadhossein Mohammadisiahroudi, Ramin Fakhimi, Tamás Terlaky",2022,,,http://arxiv.org/abs/2205.01220v2,"Quantum computing has attracted significant interest in the optimization
+community because it potentially can solve classes of optimization problems
+faster than conventional supercomputers. Several researchers proposed quantum
+computing methods, especially Quantum Interior Point Methods (QIPMs), to ..."
+Optimal minimum-cost quantum measurements for imperfect detection,Erika Andersson,2012,,,http://arxiv.org/abs/1201.0387v1,"Knowledge of optimal quantum measurements is important for a wide range of
+situations, including quantum communication and quantum metrology. Quantum
+measurements are usually optimised with an ideal experimental realisation in
+mind. Real devices and detectors are, however, imperfect. This has to be ..."
+Gradient-based optimal control of open quantum systems using quantum trajectories and automatic differentiation,"Mohamed Abdelhafez, David I. Schuster, Jens Koch",2019,,,http://arxiv.org/abs/1901.05541v1,"We present a gradient-based optimal-control technique for open quantum
+systems that utilizes quantum trajectories to simulate the quantum dynamics
+during optimization. Using trajectories allows for optimizing open systems with
+less computational cost than the regular density matrix approaches in mos..."
+Searching for Possible Spin Configurations of Ferrum Chain via Quantum Approximate Optimization Algorithm,Saba Arife Bozpolat,2022,,,http://arxiv.org/abs/2211.12903v1,"Calculating the expected spin configuration of the chain consisting of Ferrum
+atoms interacting with each other through exchange interaction is fundamentally
+a configuration optimization problem. Quantum Approximate Optimization
+Algorithm is a suitable candidate to configure such systems on a quantu..."
+"Optimizing Quantum Circuits, Fast and Slow","Amanda Xu, Abtin Molavi, Swamit Tannu, Aws Albarghouthi",2024,,,http://arxiv.org/abs/2411.04104v1,"Optimizing quantum circuits is critical: the number of quantum operations
+needs to be minimized for a successful evaluation of a circuit on a quantum
+processor. In this paper we unify two disparate ideas for optimizing quantum
+circuits, rewrite rules, which are fast standard optimizer passes, and un..."
+Finding the Optimal Currency Composition of Foreign Exchange Reserves with a Quantum Computer,Martin Vesely,2023,,,http://arxiv.org/abs/2303.01909v1,"Portfolio optimization is an inseparable part of strategic asset allocation
+at the Czech National Bank. Quantum computing is a new technology offering
+algorithms for that problem. The capabilities and limitations of quantum
+computers with regard to portfolio optimization should therefore be
+investig..."
+Multilayer Optimization for the Quantum Internet,"Laszlo Gyongyosi, Sandor Imre",2018,,,http://arxiv.org/abs/1808.07860v1,"We define a multilayer optimization method for the quantum Internet.
+Multilayer optimization integrates separate procedures for the optimization of
+the quantum layer and the classical layer of the quantum Internet. The
+multilayer optimization procedure defines advanced techniques for the
+optimizatio..."
+"Reply to: Comment on ""Quantum Optimization for Combinatorial Searches""",C. A. Trugenberger,2002,,,http://arxiv.org/abs/quant-ph/0206087v1,"This is my reply to Zalka and Brun's criticism of my recent paper on quantum
+optimization heuristics. Essentially, this criticism is shown to be utterly
+irrelevant...."
+A Comparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems,"Monit Sharma, Hoong Chuin Lau",2025,,,http://arxiv.org/abs/2503.12121v2,"Quantum optimization holds promise for addressing classically intractable
+combinatorial problems, yet a standardized framework for benchmarking its
+performance, particularly in terms of solution quality, computational speed,
+and scalability is still lacking. In this work, we introduce a comprehensiv..."
+Quantum Circuit Design of Integer Division Optimizing Ancillary Qubits and T-Count,"Himanshu Thapliyal, T. S. S. Varun, Edgard Munoz-Coreas",2016,,,http://arxiv.org/abs/1609.01241v1,"In this paper, we present Clifford+T gates based quantum circuit design of
+integer division having $n$ ancillary qubits. The proposed quantum circuit is
+based on restoring division algorithm. The proposed quantum circuit of integer
+division consists of (i) quantum circuitry of conditional addition o..."
+Randomized Benchmarking of Local Zeroth-Order Optimizers for Variational Quantum Systems,"Lucas Tecot, Cho-Jui Hsieh",2023,,,http://arxiv.org/abs/2310.09468v1,"In the field of quantum information, classical optimizers play an important
+role. From experimentalists optimizing their physical devices to theorists
+exploring variational quantum algorithms, many aspects of quantum information
+require the use of a classical optimizer. For this reason, there are ma..."
+Eavesdropping without quantum memory,H. Bechmann-Pasquinucci,2005,,,http://arxiv.org/abs/quant-ph/0504003v1,"In quantum cryptography the optimal eavesdropping strategy requires that the
+eavesdropper uses quantum memories in order to optimize her information. What
+happens if the eavesdropper has no quantum memory? It is shown that the best
+strategy is actually to adopt the simple intercept/resend strategy...."

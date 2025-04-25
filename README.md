@@ -27,7 +27,7 @@ Each subfolder here corresponds to a topic I’ve written about or am actively r
 ## ⚛️ Quantum Optimization Benchmarking
 
 This series accompanies my arXiv paper:  
-📄 **[A nComparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems](https://arxiv.org/abs/2503.12121)**
+📄 **[A Comparative Study of Quantum Optimization Techniques for Solving Combinatorial Optimization Benchmark Problems](https://arxiv.org/abs/2503.12121)**
 
 And the Medium series:  
 📰 **[Quantum Optimization on Classically Hard Problems](https://medium.com/@_MonitSharma)**

@@ -1,0 +1,101 @@
+Title,Published,Keywords,Link
+Quantum phase discrimination with applications to quantum search on graphs,2025-04-21,,http://arxiv.org/abs/2504.15194v1
+Breaking Down Quantum Compilation: Profiling and Identifying Costly Passes,2025-04-21,,http://arxiv.org/abs/2504.15141v1
+Efficient simulation of Clifford circuits with small Markovian errors,2025-04-21,,http://arxiv.org/abs/2504.15128v1
+Automated discovery and optimization of autonomous quantum error correction codes for a general open quantum system,2025-04-21,,http://arxiv.org/abs/2504.15070v1
+Advancing quantum process tomography through universal compilation,2025-04-21,,http://arxiv.org/abs/2504.14958v1
+(Sub)Exponential Quantum Speedup for Optimization,2025-04-21,,http://arxiv.org/abs/2504.14841v1
+Theoretical basis of measurement-device-independent quantum-key-distribution with asymmetric sources,2025-04-20,mis,http://arxiv.org/abs/2504.14614v1
+Quantum-Enhanced Weight Optimization for Neural Networks Using Grover's Algorithm,2025-04-20,,http://arxiv.org/abs/2504.14568v1
+Enhancing LLM-based Quantum Code Generation with Multi-Agent Optimization and Quantum Error Correction,2025-04-20,mis,http://arxiv.org/abs/2504.14557v1
+Entangled states are not always useful for single shot distinguishability of unitaries,2025-04-20,,http://arxiv.org/abs/2504.14499v1
+Quantum emitters in silicon: Purcell-enhanced lifetime modulation as a probe of local refractive index changes,2025-04-19,mis,http://arxiv.org/abs/2504.14342v1
+Towards Optimal Orders for Entanglement Swapping in Path Graphs: A Greedy Approach,2025-04-18,,http://arxiv.org/abs/2504.14040v1
+Probing Complex Decoherence Processes in Materials for Quantum Applications,2025-04-18,,http://arxiv.org/abs/2504.14034v1
+Metrology of open quantum systems from emitted radiation,2025-04-18,,http://arxiv.org/abs/2504.13815v1
+Robust Decentralized Quantum Kernel Learning for Noisy and Adversarial Environment,2025-04-18,mis,http://arxiv.org/abs/2504.13782v1
+Simulating Nonlinearity in Quantum Neural Networks While Mitigating Barren Plateaus,2025-04-18,,http://arxiv.org/abs/2504.13980v1
+Adaptive Non-local Observable on Quantum Neural Networks,2025-04-18,,http://arxiv.org/abs/2504.13414v1
+Logical channels in approximate Gottesman-Kitaev-Preskill error correction,2025-04-18,,http://arxiv.org/abs/2504.13383v1
+"Optimized Clifford Noise Reduction: Theory, Simulations and Experiments",2025-04-17,,http://arxiv.org/abs/2504.13356v1
+"Energy Landscape Plummeting in Variational Quantum Eigensolver: Subspace Optimization, Non-iterative Corrections and Generator-informed Initialization for Improved Quantum Efficiency",2025-04-17,"mis, sat",http://arxiv.org/abs/2504.13097v1
+QI-MPC: A Hybrid Quantum-Inspired Model Predictive Control for Learning Optimal Policies,2025-04-17,,http://arxiv.org/abs/2504.13041v1
+Query Complexity of Classical and Quantum Channel Discrimination,2025-04-17,,http://arxiv.org/abs/2504.12989v1
+A resource theory of asynchronous quantum information processing,2025-04-17,,http://arxiv.org/abs/2504.12945v1
+Performance guarantees of light-cone variational quantum algorithms for the maximum cut problem,2025-04-17,"maxcut, mis",http://arxiv.org/abs/2504.12896v1
+Dead Gate Elimination,2025-04-17,,http://arxiv.org/abs/2504.12729v1
+Quantum circuit synthesis with qudit phase gadget method,2025-04-17,sat,http://arxiv.org/abs/2504.12710v1
+Excitation transfer and many-body dark states in WQED,2025-04-17,,http://arxiv.org/abs/2504.12677v1
+Transferring linearly fixed QAOA angles: performance and real device results,2025-04-17,,http://arxiv.org/abs/2504.12632v1
+Sampling-based Quantum Optimization Algorithm with Quantum Relaxation,2025-04-17,"maxcut, mis, sat",http://arxiv.org/abs/2504.12629v1
+Enhancing NDAR with Delay-Gate-Induced Amplitude Damping,2025-04-17,,http://arxiv.org/abs/2504.12628v1
+Implementing Slack-Free Custom Penalty Function for QUBO on Gate-Based Quantum Computers,2025-04-17,"mis, knapsack",http://arxiv.org/abs/2504.12611v1
+Solving Constrained Combinatorial Optimization Problems with Variational Quantum Imaginary Time Evolution,2025-04-17,"mis, sat, knapsack",http://arxiv.org/abs/2504.12607v1
+Constant-time hybrid compilation of Shor's algorithm with quantum just-in-time compilation,2025-04-16,,http://arxiv.org/abs/2504.12449v1
+Standardization of Multi-Objective QUBOs,2025-04-16,,http://arxiv.org/abs/2504.12419v1
+Quantum vs. classical: A comprehensive benchmark study for predicting time series with variational quantum machine learning,2025-04-16,mis,http://arxiv.org/abs/2504.12416v1
+A tensor network approach to sensing quantum light-matter interactions,2025-04-16,,http://arxiv.org/abs/2504.12399v1
+Quantum Cramer-Rao Precision Limit of Noisy Continuous Sensing,2025-04-16,mis,http://arxiv.org/abs/2504.12400v1
+Predictive control of blast furnace temperature in steelmaking with hybrid depth-infused quantum neural networks,2025-04-16,,http://arxiv.org/abs/2504.12389v1
+ScarFinder: a detector of optimal scar trajectories in quantum many-body dynamics,2025-04-16,,http://arxiv.org/abs/2504.12383v1
+Universal work extraction in quantum thermodynamics,2025-04-16,,http://arxiv.org/abs/2504.12373v1
+A complete theory of the Clifford commutant,2025-04-16,,http://arxiv.org/abs/2504.12263v1
+Optimizing the quantum interference between single photons and local oscillator with photon correlations,2025-04-16,mis,http://arxiv.org/abs/2504.12111v1
+Max-Cut graph-driven quantum circuit design for planar spin glasses,2025-04-16,,http://arxiv.org/abs/2504.12096v1
+Locality-aware Pauli-based computation for local magic state preparation,2025-04-16,,http://arxiv.org/abs/2504.12091v1
+"Causality, localisation, and universality of monitored quantum walks with long-range hopping",2025-04-16,sat,http://arxiv.org/abs/2504.12053v1
+Variational Quantum Optimization Benchmark Suite for Airline Crew Pairing and More,2025-04-16,maxcut,http://arxiv.org/abs/2504.11899v1
+Hardware Co-Designed Optimal Control for Programmable Atomic Quantum Processors via Reinforcement Learning,2025-04-16,,http://arxiv.org/abs/2504.11737v1
+Advancing quantum simulations of nuclear shell model with noise-resilient protocols,2025-04-16,sat,http://arxiv.org/abs/2504.11689v1
+Quantum simulations of nuclear resonances with variational methods,2025-04-16,mis,http://arxiv.org/abs/2504.11685v1
+Post-Variational Ground State Estimation via QPE-Based Quantum Imaginary Time Evolution,2025-04-15,sat,http://arxiv.org/abs/2504.11549v1
+Optimal control of geometric phase in pairs of interacting atoms traveling along two-dimensional closed paths,2025-04-15,mis,http://arxiv.org/abs/2504.11267v1
+A deep dive into the interplay of structured quantum peaked circuits and infinite temperature correlation functions,2025-04-15,,http://arxiv.org/abs/2504.11240v1
+Probe of Generic Quantum Contextuality and Nonlocality for qubits,2025-04-15,,http://arxiv.org/abs/2504.11238v1
+"Improved approximation ratios for the Quantum Max-Cut problem on general, triangle-free and bipartite graphs",2025-04-15,,http://arxiv.org/abs/2504.11120v1
+Integration of a high-fidelity model of quantum sensors with a map-matching filter for quantum-enhanced navigation,2025-04-15,,http://arxiv.org/abs/2504.11119v1
+Fine-Tuning Large Language Models on Quantum Optimization Problems for Circuit Generation,2025-04-15,,http://arxiv.org/abs/2504.11109v1
+QAMA: Quantum annealing multi-head attention operator with classical deep learning framework,2025-04-15,,http://arxiv.org/abs/2504.11083v1
+Iterative Linear Quadratic Regulator for Quantum Optimal Control,2025-04-15,,http://arxiv.org/abs/2504.10938v1
+SCOOP: A Scalable Quantum-Computing Framework to Constrained Combinatorial Optimization,2025-04-15,,http://arxiv.org/abs/2504.10897v1
+"Strain effect on optical properties and quantum weight of 2D magnetic topological insulators MnBi$_2$X$_4$ (X = Te, Se, S)",2025-04-15,,http://arxiv.org/abs/2504.10879v1
+Cross-Problem Parameter Transfer in Quantum Approximate Optimization Algorithm: A Machine Learning Approach,2025-04-14,"maxcut, mis",http://arxiv.org/abs/2504.10733v1
+An Adaptive Weighted QITE-VQE Algorithm for Combinatorial Optimization Problems,2025-04-14,"maxcut, mis",http://arxiv.org/abs/2504.10651v1
+Simulating near-infrared spectroscopy on a quantum computer for enhanced chemical detection,2025-04-14,,http://arxiv.org/abs/2504.10602v1
+Trapping potentials and quantum gates for microwave-dressed Rydberg atoms on an atom chip,2025-04-14,,http://arxiv.org/abs/2504.10349v1
+Exponentially Decaying Quantum Simulation Error with Noisy Devices,2025-04-14,mis,http://arxiv.org/abs/2504.10247v1
+Comparative Analysis of Quantum Support Vector Machines and Variational Quantum Classifiers for B-cell Epitope Prediction in Vaccine Design,2025-04-14,,http://arxiv.org/abs/2504.10073v2
+Relativistic Quantum Simulation of Hydrogen Sulfide for Hydrogen Energy via Hybrid Quantum-Classical Algorithms,2025-04-14,mis,http://arxiv.org/abs/2504.10069v2
+All-optical Raman control of ultracold atomic hyperfine states using pulsed jump protocol,2025-04-14,mis,http://arxiv.org/abs/2504.09921v1
+A Practical Framework for Assessing the Performance of Observable Estimation in Quantum Simulation,2025-04-14,mis,http://arxiv.org/abs/2504.09813v1
+Practical Advantage of Classical Communication in Entanglement Detection,2025-04-14,,http://arxiv.org/abs/2504.09791v1
+Hierarchical Quantum Optimization via Backbone-Driven Problem Decomposition: Integrating Tabu-Search with QAOA,2025-04-13,mis,http://arxiv.org/abs/2504.09575v1
+Time-of-Flow Distribution in Discrete Quantum Systems: From Experimental Protocol to Optimization and Decoherence,2025-04-13,,http://arxiv.org/abs/2504.09571v1
+Tight tradeoff relation and optimal measurement for multi-parameter quantum estimation,2025-04-13,sat,http://arxiv.org/abs/2504.09490v1
+Survival of the Optimized: An Evolutionary Approach to T-depth Reduction,2025-04-13,,http://arxiv.org/abs/2504.09391v1
+Spatial and temporal circuit cutting with hypergraphic partitioning,2025-04-12,mis,http://arxiv.org/abs/2504.09334v1
+Unleashing Optimizations in Dynamic Circuits through Branch Expansion,2025-04-12,,http://arxiv.org/abs/2504.09234v1
+Compact Circuits for Constrained Quantum Evolutions of Sparse Operators,2025-04-12,,http://arxiv.org/abs/2504.09133v1
+Measurement-induced phase transitions in quantum inference problems and quantum hidden Markov models,2025-04-11,,http://arxiv.org/abs/2504.08888v1
+Planar quantum low-density parity-check codes with open boundaries,2025-04-11,"mis, sat",http://arxiv.org/abs/2504.08887v1
+Multiparameter estimation with an array of entangled atomic sensors,2025-04-11,,http://arxiv.org/abs/2504.08677v1
+Optimization of optomechanical cooling and entanglement using semi-analytic solutions to the Lindblad master equation,2025-04-11,,http://arxiv.org/abs/2504.08673v1
+IF-QAOA: A Penalty-Free Approach to Accelerating Constrained Quantum Optimization,2025-04-11,"sat, knapsack",http://arxiv.org/abs/2504.08663v1
+Graph Coloring via Quantum Optimization on a Rydberg-Qudit Atom Array,2025-04-11,sat,http://arxiv.org/abs/2504.08598v1
+Extrapolation method to optimize linear-ramp QAOA parameters: Evaluation of QAOA runtime scaling,2025-04-11,"mis, portfolio",http://arxiv.org/abs/2504.08577v1
+Efficient Two Photon Generation from an Atom in a Cavity,2025-04-11,mis,http://arxiv.org/abs/2504.08511v1
+Two-media laser threshold magnetometry: A magnetic-field-dependent laser threshold,2025-04-11,"mis, sat",http://arxiv.org/abs/2504.08466v2
+Quality Diversity for Variational Quantum Circuit Optimization,2025-04-11,sat,http://arxiv.org/abs/2504.08459v1
+Manifestation of critical effects in environmental parameter estimation using a quantum sensor under dynamical control,2025-04-11,,http://arxiv.org/abs/2504.08355v1
+Scalable Conflict-free Decision Making with Photons,2025-04-11,,http://arxiv.org/abs/2504.08331v1
+Towards a Digital Twin of Noisy Quantum Computers: Calibration-Driven Emulation of Transmon Qubits,2025-04-11,,http://arxiv.org/abs/2504.08313v1
+Hybrid quantum optimization in the context of minimizing traffic congestion,2025-04-11,,http://arxiv.org/abs/2504.08275v1
+Scalable universal quantum gates between nitrogen-vacancy centers in levitated nanodiamonds arrays,2025-04-11,mis,http://arxiv.org/abs/2504.08194v1
+CDJ-Pontryagin Optimal Control for General Continuously Monitored Quantum Systems,2025-04-10,,http://arxiv.org/abs/2504.08173v1
+Optimizing QUBO generation parameters for NP problems and their impact on D-Wave convergence,2025-04-10,mis,http://arxiv.org/abs/2504.08159v1
+Benchmarking and contrasting exchange-correlation functional differences in response to static correlation in unrestricted Kohn-Sham and a hybrid 1-electron reduced density matrix functional theory,2025-04-10,,http://arxiv.org/abs/2504.08155v1
+End-to-End Portfolio Optimization with Quantum Annealing,2025-04-10,portfolio,http://arxiv.org/abs/2504.08843v1
+Semicontinuity bounds for the von Neumann entropy and partial majorization,2025-04-10,,http://arxiv.org/abs/2504.08098v1
+"Unifying adiabatic state-transfer protocols with $(α, β)$-hypergeometries",2025-04-10,,http://arxiv.org/abs/2504.08031v1
+Quantum Speed Limit in Driven-dissipative Systems,2025-04-10,,http://arxiv.org/abs/2504.07931v1
+Estimating entanglement monotones of non-pure spin-squeezed states,2025-04-10,sat,http://arxiv.org/abs/2504.07814v1
