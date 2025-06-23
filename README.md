@@ -68,7 +68,7 @@ Clone this repo and install requirements (quantum section needs Qiskit, RL secti
 
 ```bash
 git clone https://github.com/MonitSharma/monit-learning-lab.git
-cd monit-learning-lab
+cd medium_articles
 uv venv --python=python3.10
 uv pip install -r requirements.txt
 ```
