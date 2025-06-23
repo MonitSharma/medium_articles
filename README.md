@@ -99,7 +99,7 @@ Feel free to open an issue if you want to discuss ideas before implementing them
 Created and maintained by [Monit Sharma](https://github.com/MonitSharma)  
 
 🐦 Twitter: [@_MonitSharma](https://twitter.com/_MonitSharma)  
-✍️ Medium: [@YourHandle](https://medium.com/@_monitsharma)
+✍️ Medium: [@MonitSharma](https://medium.com/@_monitsharma)
 
 ---
 
