@@ -131,3 +131,15 @@ Defaults:
 
 - This code is aimed at toy-scale order-finding studies and metric discipline.
 - The exact permutation-oracle path is not scalable for large factoring instances.
+
+
+## Citation
+
+```bash
+@misc{sharma2026shorhonestmetrics,
+ author = {Monit Sharma},
+ title = {Sometimes It's Too Slow… for Shor: Factoring Numbers on IBM Quantum Hardware with Honest Metrics},
+ year = {2026},
+ howpublished = {\url{https://github.com/MonitSharma/medium_articles/tree/main/sometimes-too-slow-for-shor}},
+ note = {GitHub repository}
+ ```
