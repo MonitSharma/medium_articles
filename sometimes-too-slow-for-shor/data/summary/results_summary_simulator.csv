@@ -1,0 +1,8 @@
+N,bits,a,t,n_work,backend,credential_label,qpu_time_remaining_seconds,depth,two_qubit_gates,shots,unique_frac,run_status,failure_reason,strict_success,p,q,r_min,current_memory_mb,available_memory_mb,peak_memory_mb,estimated_cached_controlled_mb,runtime_sec
+15,4,7,8,4,aer-ideal:matrix_product_state,,,485,264,1024,0.044921875,completed,,True,3,5,4,116.015625,15011.90625,116.015625,0.0,0.0193930410023313
+21,5,19,10,5,aer-ideal:matrix_product_state,,,19795,10085,1024,0.0634765625,completed,,True,3,7,6,192.84375,14875.65625,192.84375,0.1875,0.39042604199494235
+35,6,4,12,6,aer-ideal:matrix_product_state,,,98133,49746,1024,0.0556640625,completed,,True,5,7,6,458.390625,14564.15625,460.390625,0.75,2.6744391249958426
+91,7,33,14,7,aer-ideal:matrix_product_state,,,465727,235459,1024,0.07421875,completed,,True,7,13,12,1069.96875,15034.890625,1939.265625,4.0,47.56172537499515
+143,8,5,16,8,aer-ideal:matrix_product_state,,,2146104,1084216,1024,0.73046875,completed,,True,11,13,20,2653.71875,16250.953125,6801.25,24.0,1012.0890582499997
+221,8,120,16,8,aer-ideal:matrix_product_state,,,2145961,1084216,1024,0.0341796875,completed,,False,,,,5742.828125,13896.59375,7494.390625,8.0,99.80893308400118
+247,8,159,16,8,aer-ideal:matrix_product_state,,,2146001,1084216,1024,0.0341796875,completed,,False,,,,5804.5625,13803.75,8383.484375,8.0,99.75082295799803

@@ -1,0 +1,4 @@
+N,bits,a,t,n_work,backend,depth,two_qubit_gates,shots,run_status,top1_success,factor_yield_mass,strict_baseline_fp_rate,yield_vs_baseline_ratio,exploratory_yield_mass,exploratory_baseline_fp_rate,exploratory_yield_ratio,factor_found_in_histogram,dominant_outcome_success,r_true,peaks_total,peaks_hit,peak_hit_fraction,mass_near_peaks,best_bit_order,uniform_peak_mass,peak_enrichment,strict_success,p,q,r_min,runtime_sec
+15,4,7,8,4,ibm_torino,2316,727,1024,completed,False,0.108398,0.057617,1.8814,1.0,1.0,1.0,True,False,4,4,4,1.0,0.046875,raw,0.046875,1.0,True,3,5,4,32.40260541600583
+21,5,19,10,5,ibm_torino,73170,23054,1024,completed,False,0.040039,0.021973,1.8222,1.0,1.0,1.0,True,False,6,6,5,0.8333,0.017578,raw,0.017578,1.0,True,3,7,6,906.9182879589935
+35,6,4,12,6,ibm_fez,382165,116706,1024,completed,False,0.029297,0.01123,2.6087,1.0,1.0,1.0,True,False,6,6,5,0.8333,0.006836,reversed,0.004395,1.5556,True,5,7,6,6569.677714083009
