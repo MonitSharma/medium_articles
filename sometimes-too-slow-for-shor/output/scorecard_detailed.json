@@ -1,0 +1,1309 @@
+[
+  {
+    "year": 2001,
+    "authors": "Vandersypen et al.",
+    "N": 15,
+    "a": 7,
+    "t": 3,
+    "qubits": 7,
+    "platform": "Liquid-state NMR",
+    "method": "Gate-model (compiled)",
+    "cx_gates": "~12 (NMR pulse equiv.)",
+    "oracle_type": "Compiled/hardcoded",
+    "success_metric": "Single run",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "A",
+    "notes": "First proof-of-concept. NMR ensemble average.",
+    "true_order": 4,
+    "textbook_null_fp_rate": 0.25,
+    "strict_null_fp_rate": 0.75,
+    "exploratory_null_fp_rate": 1.0,
+    "ideal_success_rate": 0.5,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 4,
+      "note": "Compiled circuit with r=4: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 8,
+    "strict_success_count": 6,
+    "exploratory_success_count": 8,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "000",
+        "phase": "0/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "001",
+        "phase": "1/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 2,
+        "y_binary": "010",
+        "phase": "2/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 3,
+        "y_binary": "011",
+        "phase": "3/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 4,
+        "y_binary": "100",
+        "phase": "4/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 5,
+        "y_binary": "101",
+        "phase": "5/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 6,
+        "y_binary": "110",
+        "phase": "6/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 7,
+        "y_binary": "111",
+        "phase": "7/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "authors": "Lu et al.",
+    "N": 15,
+    "a": 2,
+    "t": 2,
+    "qubits": 4,
+    "platform": "Photonic",
+    "method": "Gate-model (compiled)",
+    "cx_gates": "~4 (photonic equiv.)",
+    "oracle_type": "Fully compiled",
+    "success_metric": "Coincidence counts",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "A",
+    "notes": "4-photon cluster state. Heavily compiled.",
+    "true_order": 4,
+    "textbook_null_fp_rate": 0.5,
+    "strict_null_fp_rate": 0.5,
+    "exploratory_null_fp_rate": 1.0,
+    "ideal_success_rate": 0.5,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 4,
+      "note": "Compiled circuit with r=4: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 4,
+    "strict_success_count": 2,
+    "exploratory_success_count": 4,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "00",
+        "phase": "0/4",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "01",
+        "phase": "1/4",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 2,
+        "y_binary": "10",
+        "phase": "2/4",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 3,
+        "y_binary": "11",
+        "phase": "3/4",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      }
+    ]
+  },
+  {
+    "year": 2007,
+    "authors": "Lanyon et al.",
+    "N": 15,
+    "a": 2,
+    "t": 2,
+    "qubits": 4,
+    "platform": "Photonic",
+    "method": "Gate-model (compiled)",
+    "cx_gates": "~4",
+    "oracle_type": "Fully compiled",
+    "success_metric": "Coincidence counts",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "A",
+    "notes": "Compiled photonic demonstration.",
+    "true_order": 4,
+    "textbook_null_fp_rate": 0.5,
+    "strict_null_fp_rate": 0.5,
+    "exploratory_null_fp_rate": 1.0,
+    "ideal_success_rate": 0.5,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 4,
+      "note": "Compiled circuit with r=4: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 4,
+    "strict_success_count": 2,
+    "exploratory_success_count": 4,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "00",
+        "phase": "0/4",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "01",
+        "phase": "1/4",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 2,
+        "y_binary": "10",
+        "phase": "2/4",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 3,
+        "y_binary": "11",
+        "phase": "3/4",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "authors": "Martin-Lopez et al.",
+    "N": 15,
+    "a": 2,
+    "t": 3,
+    "qubits": "2 (recycled)",
+    "platform": "Photonic",
+    "method": "Gate-model (iterative/compiled)",
+    "cx_gates": "~6",
+    "oracle_type": "Compiled + qubit recycling",
+    "success_metric": "Photon coincidences",
+    "null_baseline_reported": false,
+    "raw_histogram": true,
+    "category": "A",
+    "notes": "Qubit recycling via semiclassical QFT. Architecturally important.",
+    "true_order": 4,
+    "textbook_null_fp_rate": 0.25,
+    "strict_null_fp_rate": 0.75,
+    "exploratory_null_fp_rate": 1.0,
+    "ideal_success_rate": 0.5,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 4,
+      "note": "Compiled circuit with r=4: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 8,
+    "strict_success_count": 6,
+    "exploratory_success_count": 8,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "000",
+        "phase": "0/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "001",
+        "phase": "1/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 2,
+        "y_binary": "010",
+        "phase": "2/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 3,
+        "y_binary": "011",
+        "phase": "3/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 4,
+        "y_binary": "100",
+        "phase": "4/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 5,
+        "y_binary": "101",
+        "phase": "5/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 6,
+        "y_binary": "110",
+        "phase": "6/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 7,
+        "y_binary": "111",
+        "phase": "7/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      }
+    ]
+  },
+  {
+    "year": 2012,
+    "authors": "Lucero et al.",
+    "N": 21,
+    "a": 4,
+    "t": 3,
+    "qubits": 4,
+    "platform": "Superconducting (Josephson)",
+    "method": "Gate-model (compiled)",
+    "cx_gates": "~11",
+    "oracle_type": "Fully compiled",
+    "success_metric": "Repeated measurements",
+    "null_baseline_reported": false,
+    "raw_histogram": true,
+    "category": "A",
+    "notes": "First factorization of 21 on superconducting hardware.",
+    "true_order": 3,
+    "textbook_null_fp_rate": 0.0,
+    "strict_null_fp_rate": 0.25,
+    "exploratory_null_fp_rate": 0.875,
+    "ideal_success_rate": 0.47097086912079633,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 3,
+      "note": "Compiled circuit with r=3: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 8,
+    "strict_success_count": 2,
+    "exploratory_success_count": 7,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "000",
+        "phase": "0/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "001",
+        "phase": "1/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 2,
+        "y_binary": "010",
+        "phase": "2/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 3,
+        "y_binary": "011",
+        "phase": "3/8",
+        "factors_found": [
+          3,
+          7
+        ],
+        "order_found": 3,
+        "success": true
+      },
+      {
+        "y": 4,
+        "y_binary": "100",
+        "phase": "4/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 5,
+        "y_binary": "101",
+        "phase": "5/8",
+        "factors_found": [
+          3,
+          7
+        ],
+        "order_found": 3,
+        "success": true
+      },
+      {
+        "y": 6,
+        "y_binary": "110",
+        "phase": "6/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 7,
+        "y_binary": "111",
+        "phase": "7/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "authors": "Amico, Saleem & Kumph",
+    "N": 15,
+    "a": 11,
+    "t": 3,
+    "qubits": 6,
+    "platform": "IBM ibmqx5 (Superconducting)",
+    "method": "Gate-model (compiled, iterative split)",
+    "cx_gates": "~15 per sub-circuit",
+    "oracle_type": "Compiled + semiclassical QFT (split circuits)",
+    "success_metric": "Statistical overlap (SSO)",
+    "null_baseline_reported": false,
+    "raw_histogram": true,
+    "category": "A",
+    "notes": "Split-circuit iterative approach. Used SSO instead of continued fractions.",
+    "true_order": 2,
+    "textbook_null_fp_rate": 0.375,
+    "strict_null_fp_rate": 0.875,
+    "exploratory_null_fp_rate": 1.0,
+    "ideal_success_rate": 0.5,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 2,
+      "note": "Order-2 base: trivially reduces to 2-qubit Smolin circuit"
+    },
+    "outcome_space_size": 8,
+    "strict_success_count": 7,
+    "exploratory_success_count": 8,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "000",
+        "phase": "0/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "001",
+        "phase": "1/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 2,
+        "y_binary": "010",
+        "phase": "2/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 3,
+        "y_binary": "011",
+        "phase": "3/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 2,
+        "success": true
+      },
+      {
+        "y": 4,
+        "y_binary": "100",
+        "phase": "4/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 2,
+        "success": true
+      },
+      {
+        "y": 5,
+        "y_binary": "101",
+        "phase": "5/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 2,
+        "success": true
+      },
+      {
+        "y": 6,
+        "y_binary": "110",
+        "phase": "6/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 7,
+        "y_binary": "111",
+        "phase": "7/8",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "authors": "Amico, Saleem & Kumph",
+    "N": 21,
+    "a": 4,
+    "t": 3,
+    "qubits": 6,
+    "platform": "IBM ibmqx5 (Superconducting)",
+    "method": "Gate-model (compiled, iterative split)",
+    "cx_gates": "~20 per sub-circuit",
+    "oracle_type": "Compiled + semiclassical QFT (split circuits)",
+    "success_metric": "Statistical overlap (SSO)",
+    "null_baseline_reported": false,
+    "raw_histogram": true,
+    "category": "A",
+    "notes": "Split-circuit iterative approach for N=21.",
+    "true_order": 3,
+    "textbook_null_fp_rate": 0.0,
+    "strict_null_fp_rate": 0.25,
+    "exploratory_null_fp_rate": 0.875,
+    "ideal_success_rate": 0.47097086912079633,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 3,
+      "note": "Compiled circuit with r=3: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 8,
+    "strict_success_count": 2,
+    "exploratory_success_count": 7,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "000",
+        "phase": "0/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "001",
+        "phase": "1/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 2,
+        "y_binary": "010",
+        "phase": "2/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 3,
+        "y_binary": "011",
+        "phase": "3/8",
+        "factors_found": [
+          3,
+          7
+        ],
+        "order_found": 3,
+        "success": true
+      },
+      {
+        "y": 4,
+        "y_binary": "100",
+        "phase": "4/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 5,
+        "y_binary": "101",
+        "phase": "5/8",
+        "factors_found": [
+          3,
+          7
+        ],
+        "order_found": 3,
+        "success": true
+      },
+      {
+        "y": 6,
+        "y_binary": "110",
+        "phase": "6/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 7,
+        "y_binary": "111",
+        "phase": "7/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      }
+    ]
+  },
+  {
+    "year": 2019,
+    "authors": "Amico, Saleem & Kumph",
+    "N": 35,
+    "a": 4,
+    "t": 3,
+    "qubits": 6,
+    "platform": "IBM ibmqx5 (Superconducting)",
+    "method": "Gate-model (compiled, iterative split)",
+    "cx_gates": "~30 per sub-circuit",
+    "oracle_type": "Compiled + semiclassical QFT (split circuits)",
+    "success_metric": "Statistical overlap (SSO)",
+    "null_baseline_reported": false,
+    "raw_histogram": true,
+    "category": "A",
+    "notes": "N=35 attempted but largely failed (~14% success). Highest N attempted with compiled gate-model Shor on hardware.",
+    "true_order": 6,
+    "textbook_null_fp_rate": 0.0,
+    "strict_null_fp_rate": 0.0,
+    "exploratory_null_fp_rate": 0.0,
+    "ideal_success_rate": 0.0,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 6,
+      "note": "Compiled circuit with r=6: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 8,
+    "strict_success_count": 0,
+    "exploratory_success_count": 0,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "000",
+        "phase": "0/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "001",
+        "phase": "1/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 2,
+        "y_binary": "010",
+        "phase": "2/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 3,
+        "y_binary": "011",
+        "phase": "3/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 4,
+        "y_binary": "100",
+        "phase": "4/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 5,
+        "y_binary": "101",
+        "phase": "5/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 6,
+        "y_binary": "110",
+        "phase": "6/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 7,
+        "y_binary": "111",
+        "phase": "7/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      }
+    ]
+  },
+  {
+    "year": 2016,
+    "authors": "Monz et al.",
+    "N": 15,
+    "a": 2,
+    "t": 4,
+    "qubits": 5,
+    "platform": "Trapped Ion",
+    "method": "Gate-model (compiled, iterative)",
+    "cx_gates": "~10 (MS gates)",
+    "oracle_type": "Compiled + in-sequence measurement",
+    "success_metric": "Success probability",
+    "null_baseline_reported": false,
+    "raw_histogram": true,
+    "category": "A",
+    "notes": "Claimed 'scalable' architecture.",
+    "true_order": 4,
+    "textbook_null_fp_rate": 0.125,
+    "strict_null_fp_rate": 0.375,
+    "exploratory_null_fp_rate": 1.0,
+    "ideal_success_rate": 0.5,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 4,
+      "note": "Compiled circuit with r=4: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 16,
+    "strict_success_count": 6,
+    "exploratory_success_count": 16,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "0000",
+        "phase": "0/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "0001",
+        "phase": "1/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 2,
+        "y_binary": "0010",
+        "phase": "2/16",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 3,
+        "y_binary": "0011",
+        "phase": "3/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 4,
+        "y_binary": "0100",
+        "phase": "4/16",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 5,
+        "y_binary": "0101",
+        "phase": "5/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 6,
+        "y_binary": "0110",
+        "phase": "6/16",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 7,
+        "y_binary": "0111",
+        "phase": "7/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 8,
+        "y_binary": "1000",
+        "phase": "8/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 9,
+        "y_binary": "1001",
+        "phase": "9/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 10,
+        "y_binary": "1010",
+        "phase": "10/16",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 11,
+        "y_binary": "1011",
+        "phase": "11/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 12,
+        "y_binary": "1100",
+        "phase": "12/16",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 4,
+        "success": true
+      },
+      {
+        "y": 13,
+        "y_binary": "1101",
+        "phase": "13/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 14,
+        "y_binary": "1110",
+        "phase": "14/16",
+        "factors_found": [
+          3,
+          5
+        ],
+        "order_found": 8,
+        "success": true
+      },
+      {
+        "y": 15,
+        "y_binary": "1111",
+        "phase": "15/16",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "authors": "Skosana & Tame",
+    "N": 21,
+    "a": 4,
+    "t": 3,
+    "qubits": 5,
+    "platform": "IBM Q (Superconducting)",
+    "method": "Gate-model (compiled)",
+    "cx_gates": 25,
+    "oracle_type": "Compiled + Margolus gates",
+    "success_metric": "Kolmogorov distance + state tomography",
+    "null_baseline_reported": false,
+    "raw_histogram": true,
+    "category": "A",
+    "notes": "Most rigorous N=21 demo. Verified entanglement. Fidelity ~0.70.",
+    "true_order": 3,
+    "textbook_null_fp_rate": 0.0,
+    "strict_null_fp_rate": 0.25,
+    "exploratory_null_fp_rate": 0.875,
+    "ideal_success_rate": 0.47097086912079633,
+    "smolin_analysis": {
+      "reduces_to_smolin": true,
+      "min_qubits_smolin": 2,
+      "order": 3,
+      "note": "Compiled circuit with r=3: oracle embeds factor knowledge"
+    },
+    "outcome_space_size": 8,
+    "strict_success_count": 2,
+    "exploratory_success_count": 7,
+    "outcome_analysis": [
+      {
+        "y": 0,
+        "y_binary": "000",
+        "phase": "0/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 1,
+        "y_binary": "001",
+        "phase": "1/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 2,
+        "y_binary": "010",
+        "phase": "2/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 3,
+        "y_binary": "011",
+        "phase": "3/8",
+        "factors_found": [
+          3,
+          7
+        ],
+        "order_found": 3,
+        "success": true
+      },
+      {
+        "y": 4,
+        "y_binary": "100",
+        "phase": "4/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 5,
+        "y_binary": "101",
+        "phase": "5/8",
+        "factors_found": [
+          3,
+          7
+        ],
+        "order_found": 3,
+        "success": true
+      },
+      {
+        "y": 6,
+        "y_binary": "110",
+        "phase": "6/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      },
+      {
+        "y": 7,
+        "y_binary": "111",
+        "phase": "7/8",
+        "factors_found": null,
+        "order_found": null,
+        "success": false
+      }
+    ]
+  },
+  {
+    "year": 2013,
+    "authors": "Geller & Zhou",
+    "N": 51,
+    "a": null,
+    "t": 4,
+    "qubits": 8,
+    "platform": "Theoretical",
+    "method": "Gate-model (compressed)",
+    "cx_gates": "4 (CNOT only)",
+    "oracle_type": "Compressed modular exponentiation",
+    "success_metric": "Theoretical",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "A",
+    "notes": "Theoretical only. Fermat prime structure exploited.",
+    "order_distribution": {
+      "2": 2,
+      "4": 4,
+      "8": 8,
+      "16": 16
+    },
+    "representative_bases": {
+      "2": [
+        16,
+        35
+      ],
+      "4": [
+        4,
+        13,
+        38
+      ],
+      "8": [
+        2,
+        8,
+        19
+      ],
+      "16": [
+        5,
+        7,
+        10
+      ]
+    },
+    "representative_fp_rates": {
+      "a=2,r=8": 0.75,
+      "a=4,r=4": 0.875,
+      "a=5,r=16": 0.5,
+      "a=16,r=2": 0.9375
+    }
+  },
+  {
+    "year": 2013,
+    "authors": "Geller & Zhou",
+    "N": 85,
+    "a": null,
+    "t": 4,
+    "qubits": 8,
+    "platform": "Theoretical",
+    "method": "Gate-model (compressed)",
+    "cx_gates": "4 (CNOT only)",
+    "oracle_type": "Compressed modular exponentiation",
+    "success_metric": "Theoretical",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "A",
+    "notes": "Theoretical only. Products of Fermat primes.",
+    "order_distribution": {
+      "2": 1,
+      "4": 7,
+      "8": 10,
+      "16": 19
+    },
+    "representative_bases": {
+      "2": [
+        16
+      ],
+      "4": [
+        4,
+        13,
+        18
+      ],
+      "8": [
+        2,
+        8,
+        9
+      ],
+      "16": [
+        3,
+        6,
+        7
+      ]
+    },
+    "representative_fp_rates": {
+      "a=2,r=8": 0.75,
+      "a=3,r=16": 0.5,
+      "a=4,r=4": 0.875,
+      "a=16,r=2": 0.9375
+    }
+  },
+  {
+    "year": 2012,
+    "authors": "Xu et al.",
+    "N": 143,
+    "a": null,
+    "t": null,
+    "qubits": 4,
+    "platform": "NMR (adiabatic)",
+    "method": "Adiabatic/Ising",
+    "cx_gates": "N/A",
+    "oracle_type": "Ising Hamiltonian",
+    "success_metric": "Ground state energy",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "B",
+    "notes": "11\u00d713. Factors differ by 2 bits. NOT Shor's algorithm.",
+    "factors": [
+      11,
+      13
+    ],
+    "p_bits": 4,
+    "q_bits": 4,
+    "bit_difference": 0,
+    "total_binary_vars": 8,
+    "known_bits_minimum": 4,
+    "remaining_vars_upper_bound": 4,
+    "classically_trivial": true,
+    "fermat_steps": 1
+  },
+  {
+    "year": 2014,
+    "authors": "Dattani & Bryans",
+    "N": 56153,
+    "a": null,
+    "t": null,
+    "qubits": 4,
+    "platform": "Same as Xu (theoretical)",
+    "method": "Adiabatic/Ising",
+    "cx_gates": "N/A",
+    "oracle_type": "Same Ising Hamiltonian as N=143",
+    "success_metric": "Mathematical equivalence",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "B",
+    "notes": "233\u00d7241. SAME Hamiltonian as 143. Pure math trick.",
+    "factors": [
+      233,
+      241
+    ],
+    "p_bits": 8,
+    "q_bits": 8,
+    "bit_difference": 0,
+    "total_binary_vars": 16,
+    "known_bits_minimum": 4,
+    "remaining_vars_upper_bound": 12,
+    "classically_trivial": false,
+    "fermat_steps": 1
+  },
+  {
+    "year": 2018,
+    "authors": "Dash et al.",
+    "N": 4088459,
+    "a": null,
+    "t": null,
+    "qubits": 2,
+    "platform": "IBM Q",
+    "method": "Exact search (Ising)",
+    "cx_gates": "~2",
+    "oracle_type": "Bit-proximity exploitation",
+    "success_metric": "Measurement",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "B",
+    "notes": "2017\u00d72027. Twin-prime-like proximity.",
+    "factors": [
+      2017,
+      2027
+    ],
+    "p_bits": 11,
+    "q_bits": 11,
+    "bit_difference": 0,
+    "total_binary_vars": 22,
+    "known_bits_minimum": 4,
+    "remaining_vars_upper_bound": 18,
+    "classically_trivial": false,
+    "fermat_steps": 1
+  },
+  {
+    "year": 2019,
+    "authors": "Q2B Conference",
+    "N": 1099551473989,
+    "a": null,
+    "t": null,
+    "qubits": 3,
+    "platform": "Unspecified",
+    "method": "Combinatorial/Ising",
+    "cx_gates": "N/A",
+    "oracle_type": "Hyper-specific classical preprocessing",
+    "success_metric": "Claimed factorization",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "B",
+    "notes": "Maximum stunt. Classical preprocessing does all work.",
+    "factors": [
+      1048589,
+      1048601
+    ],
+    "p_bits": 21,
+    "q_bits": 21,
+    "bit_difference": 0,
+    "total_binary_vars": 42,
+    "known_bits_minimum": 4,
+    "remaining_vars_upper_bound": 38,
+    "classically_trivial": false,
+    "fermat_steps": 1
+  },
+  {
+    "year": 2022,
+    "authors": "Yan et al.",
+    "N": 261980999226229,
+    "a": null,
+    "t": null,
+    "qubits": 10,
+    "platform": "Superconducting",
+    "method": "QAOA + Schnorr lattice",
+    "cx_gates": "~50 (QAOA layers)",
+    "oracle_type": "Lattice-CVP hybrid",
+    "success_metric": "Factorization output",
+    "null_baseline_reported": false,
+    "raw_histogram": false,
+    "category": "C",
+    "notes": "48-bit number. Classical lattice method does heavy lifting. Scaling claims disputed."
+  }
+]

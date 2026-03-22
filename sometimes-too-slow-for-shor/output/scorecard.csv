@@ -1,0 +1,18 @@
+Year,Authors,N,Method,Qubits,CX Gates,Oracle Type,t (control bits),True Order,Strict Null FP Rate,Exploratory Null FP Rate,Ideal Success Rate,Null Baseline Reported?,Passes Smolin Test?,Category,Verdict
+2001,Vandersypen et al.,15,Gate-model (compiled),7,~12 (NMR pulse equiv.),Compiled/hardcoded,3,4,0.7500,1.0000,0.5000,No,No,A,High FP risk
+2007,Lu et al.,15,Gate-model (compiled),4,~4 (photonic equiv.),Fully compiled,2,4,0.5000,1.0000,0.5000,No,No,A,High FP risk
+2007,Lanyon et al.,15,Gate-model (compiled),4,~4,Fully compiled,2,4,0.5000,1.0000,0.5000,No,No,A,High FP risk
+2012,Martin-Lopez et al.,15,Gate-model (iterative/compiled),2 (recycled),~6,Compiled + qubit recycling,3,4,0.7500,1.0000,0.5000,No,No,A,High FP risk
+2012,Lucero et al.,21,Gate-model (compiled),4,~11,Fully compiled,3,3,0.2500,0.8750,0.4710,No,No,A,High FP risk
+2019,"Amico, Saleem & Kumph",15,"Gate-model (compiled, iterative split)",6,~15 per sub-circuit,Compiled + semiclassical QFT (split circuits),3,2,0.8750,1.0000,0.5000,No,No,A,High FP risk
+2019,"Amico, Saleem & Kumph",21,"Gate-model (compiled, iterative split)",6,~20 per sub-circuit,Compiled + semiclassical QFT (split circuits),3,3,0.2500,0.8750,0.4710,No,No,A,High FP risk
+2019,"Amico, Saleem & Kumph",35,"Gate-model (compiled, iterative split)",6,~30 per sub-circuit,Compiled + semiclassical QFT (split circuits),3,6,0.0000,0.0000,0.0000,No,No,A,No null baseline
+2016,Monz et al.,15,"Gate-model (compiled, iterative)",5,~10 (MS gates),Compiled + in-sequence measurement,4,4,0.3750,1.0000,0.5000,No,No,A,High FP risk
+2021,Skosana & Tame,21,Gate-model (compiled),5,25,Compiled + Margolus gates,3,3,0.2500,0.8750,0.4710,No,No,A,High FP risk
+2013,Geller & Zhou,51,Gate-model (compressed),8,4 (CNOT only),Compressed modular exponentiation,4,N/A,N/A,N/A,N/A,No,No,A,No null baseline
+2013,Geller & Zhou,85,Gate-model (compressed),8,4 (CNOT only),Compressed modular exponentiation,4,N/A,N/A,N/A,N/A,No,No,A,No null baseline
+2012,Xu et al.,143,Adiabatic/Ising,4,N/A,Ising Hamiltonian,,N/A,N/A,N/A,N/A,No,N/A,B,Stunt (not Shor's)
+2014,Dattani & Bryans,56153,Adiabatic/Ising,4,N/A,Same Ising Hamiltonian as N=143,,N/A,N/A,N/A,N/A,No,N/A,B,Stunt (not Shor's)
+2018,Dash et al.,4088459,Exact search (Ising),2,~2,Bit-proximity exploitation,,N/A,N/A,N/A,N/A,No,N/A,B,Stunt (not Shor's)
+2019,Q2B Conference,1099551473989,Combinatorial/Ising,3,N/A,Hyper-specific classical preprocessing,,N/A,N/A,N/A,N/A,No,N/A,B,Stunt (not Shor's)
+2022,Yan et al.,261980999226229,QAOA + Schnorr lattice,10,~50 (QAOA layers),Lattice-CVP hybrid,,N/A,N/A,N/A,N/A,No,N/A,C,Disputed scaling
