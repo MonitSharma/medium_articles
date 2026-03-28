@@ -1,0 +1,15 @@
+{
+  "gap_analysis_2021": {
+    "current_qubits_scale": 1121,
+    "current_qubits_performance": 156,
+    "required_2021": 20000000,
+    "required_2025": 1000000,
+    "required_2026": 100000
+  },
+  "timeline": {
+    "qubit_doubling_years": 1.1404254618500285,
+    "error_halving_years": 1.2812594904253614,
+    "projected_year_2021": 2039.847817278455,
+    "projected_year_2025": 2034.9189804347607
+  }
+}
