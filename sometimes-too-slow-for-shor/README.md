@@ -17,6 +17,8 @@ The workflow is:
 - `shor/runtime.py`: IBM Runtime execution helpers.
 - `experiments/run_sweep.py`: sweep runner (simulator, noisy simulator, hardware).
 - `experiments/analyze_results.py`: enriched CSV + plots + console report.
+- `quantinuum_helios/`: Quantinuum Nexus/Helios-1 runner, raw hardware results, summaries, and plots.
+  See `quantinuum_helios/IBM_vs_Helios_comparison.md` for the IBM-vs-Helios hardware comparison.
 
 ## Install
 

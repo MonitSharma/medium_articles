@@ -1,0 +1,5 @@
+N,ibm_backend,ibm_status,ibm_factor_yield,ibm_peak_enrichment,ibm_dominant_outcome_success,helios_backend,helios_status,helios_factor_yield,helios_peak_enrichment,helios_dominant_outcome_success,helios_actual_cost_hqc,helios_job_id
+15,ibm_torino,completed,0.108398,1.0,False,Helios-1,completed,0.665039,15.625,True,896.08,f928cf53-70ba-41ba-b690-1e454d96af66
+21,ibm_torino,completed,0.040039,1.0,False,Helios-1,quantinuum_failed,,,,,
+35,ibm_fez,completed,0.029297,1.5556,False,Helios-1,quantinuum_failed,,,,,
+21-rerun-a4,,,,,,Helios-1,quantinuum_terminated,,,,28.08,5e71eec4-e4b7-4584-bd14-2a41c31bb6e8
