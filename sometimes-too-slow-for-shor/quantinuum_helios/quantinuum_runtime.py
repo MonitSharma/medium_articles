@@ -52,6 +52,7 @@ def _backend_config(
     qnx: Any,
     *,
     device_name: str,
+    circuit_qubits: int | None = None,
     simulator: str,
     noisy_simulation: bool,
     target_2qb_gate: str | None,
@@ -63,6 +64,9 @@ def _backend_config(
         if config_cls is None:
             config_cls = qnx.models.HeliosConfig
         kwargs: dict[str, Any] = {"system_name": device_name}
+        if device_name.upper().endswith("E"):
+            emulator_config_cls = qnx.models.HeliosEmulatorConfig
+            kwargs["emulator_config"] = emulator_config_cls(n_qubits=circuit_qubits)
         if max_cost is not None:
             kwargs["max_cost"] = float(max_cost)
         return config_cls(**kwargs)
@@ -312,7 +316,7 @@ def run_on_quantinuum_nexus(
                     programs=[qir_ref],
                     n_shots=[shots],
                     project=project,
-                    system_name="Helios-1",
+                    system_name=device_name,
                 )
             except Exception as exc:  # pragma: no cover - remote/version dependent
                 LOGGER.warning("Could not estimate Quantinuum Helios QIR HQC cost: %s", exc)
@@ -323,6 +327,7 @@ def run_on_quantinuum_nexus(
         config = _backend_config(
             qnx,
             device_name=device_name,
+            circuit_qubits=qc.num_qubits,
             simulator=simulator,
             noisy_simulation=noisy_simulation,
             target_2qb_gate=target_2qb_gate,
@@ -333,6 +338,7 @@ def run_on_quantinuum_nexus(
         config = _backend_config(
             qnx,
             device_name=device_name,
+            circuit_qubits=qc.num_qubits,
             simulator=simulator,
             noisy_simulation=noisy_simulation,
             target_2qb_gate=target_2qb_gate,

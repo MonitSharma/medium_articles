@@ -154,6 +154,11 @@ def main() -> None:
     )
     parser.add_argument("--shots", type=int, default=1024)
     parser.add_argument("--seed", type=int, default=7)
+    parser.add_argument(
+        "--base",
+        type=int,
+        help="Override the coprime base a. Intended for targeted hardware reruns.",
+    )
     parser.add_argument("--t", type=int, help="Override counting-register size. Default is 2 * ceil(log2(N)).")
     parser.add_argument("--top-k", type=int, default=20)
     parser.add_argument(
@@ -237,7 +242,9 @@ def main() -> None:
 
             n_work = math.ceil(math.log2(N))
             t = args.t if args.t is not None else 2 * n_work
-            a = _pick_coprime_base(N=N, rng=rng)
+            a = args.base if args.base is not None else _pick_coprime_base(N=N, rng=rng)
+            if not (1 < a < N) or math.gcd(a, N) != 1:
+                raise SystemExit(f"Base a={a} must satisfy 1 < a < N and gcd(a, N) = 1 for N={N}.")
             oracle_memory_estimate = _estimate_oracle_memory(N=N, a=a, t=t, n_work=n_work, method=args.method)
             prebuild_snapshot = _memory_snapshot()
 
